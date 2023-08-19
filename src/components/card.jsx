@@ -11,11 +11,11 @@ const Card = (props) => {
             {/* div containing content */}
             <div className='p-4 flex-grow flex flex-col justify-between h-full'>
                 <div className='pb-4'>
-                    <h2 className='text-secondary uppercase font-bold text-2xl ss:text-3xl sm:text-4xl'>{props.title}</h2>
-                    <p className=' text-tertery'>{props.country}</p>
+                    <h2 className='text-secondary uppercase font-semibold text-2xl ss:text-3xl sm:text-4xl'>{props.title}</h2>
+                    <p className=' text-tertery font-normal'>{props.country}</p>
                 </div>
                 <div className='flex-grow overflow-auto'>
-                    <p className='overflow-auto h-full text-1xl text-primary' >{props.content}</p>
+                    <p className='overflow-auto h-full text-1xl text-primary font-normal' >{props.content}</p>
                 </div>
             </div>
         </div>

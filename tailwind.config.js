@@ -10,6 +10,12 @@ export default {
         'heading-lg': '48px', // Large heading size
         'paragraph': '20px',  // Paragraph size
       },
+      fontWeight: {
+        'light': 300,    // Custom light font weight
+        'normal': 500,   // Default normal font weight
+        'medium': 500,   // Custom medium font weight
+        'semibold': 700, // Custom semibold font weight
+      },
       colors: {
         primary: "#000000",
         secondary: "#525367",
